@@ -13,7 +13,6 @@ body:
       label: Describe the feature
       description: Tell me which feature you would like to see added to the project
       placeholder: A clear and concise description of the feature you want.
-      value: ""
     validations:
       required: true
   - type: textarea
@@ -22,7 +21,6 @@ body:
       label: Why do you want this feature
       description: Tell me why you would like to see this feature implmented
       placeholder: Describe why this feature should be added to the project.
-      value: ""
     validations:
       required: true
   - type: checkboxes
