@@ -1,0 +1,35 @@
+name: 🚀 Feature request
+description: Suggest an idea for this project
+title: "[🚀 Feature request]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a feature. I'm always interested in adding new functionality.
+  - type: textarea
+    id: describtion
+    attributes:
+      label: Describe the feature
+      description: Tell me which feature you would like to see added to the project
+      placeholder: A clear and concise description of the feature you want.
+      value: ""
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: Why do you want this feature
+      description: Tell me why you would like to see this feature implmented
+      placeholder: Describe why this feature should be added to the project.
+      value: ""
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: I would like to help implementing this
+      description: I'm always looking for people that can help out
+      options:
+        - label: If you would like to help implement this feature tick the box
+          required: false
